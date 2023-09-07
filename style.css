@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #0F1A73;
+}
+
+header {
+    background-color: #0F1A73;
+    color: #fff;
+    padding: 10px;
+}
+
+main {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff; /* Cor do texto em branco */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    background-color: #E1E4E7;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 24px; /* Tamanho maior do texto */
+    color: #fff; /* Cor do texto em branco */
+}
+
+/* Estilos para a barra de progresso */
+.progress-bar {
+    background-color: green;
+    width: 100%; /* Largura fixa da barra de progresso */
+    height: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: block;
+    overflow: hidden; /* Oculta o conteúdo que transborda */
+}
+
+.progress {
+    background-color: green;
+    height: 100%; /* Altura da barra de progresso ajustada para 100% */
+    width: 0; /* Inicialmente, a largura é zero (sem preenchimento) */
+    border-radius: 10px;
+    transition: width 0.5s ease-in-out; /* Adiciona uma transição suave */
+}
+
+
+/* Estilos para o botão */
+button {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    animation: pulse 2s infinite; /* Aplica a animação "pulse" indefinidamente */
+}
+
+/* Estilos para o botão "Compartilhar" */
+.button {
+    background-color: gold; /* Cor de fundo do botão */
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    animation: pulse 2s infinite; /* Aplica a animação "pulse" indefinidamente */
+    text-align: center;
+}
+
+.button a {
+    color: #fff; /* Cor do texto em branco */
+    text-decoration: none; /* Remove sublinhado do link */
+}
+
+/* Estilos para a animação "pulse" */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/* Definir a animação "pulse" */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Estilos para a mensagem */
+.message {
+    display: none; /* Oculta a mensagem inicialmente */
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0F1A73;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* Estilos para telas menores, como celulares e tablets */
+@media (max-width: 768px) {
+    /* Estilos de botão e mensagem para telas menores */
+    /* ... (seus estilos para telas menores) ... */
+}

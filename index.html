@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Compartilhável</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>COMPARTILHE E GANHE UM BÔNUS!</h1>
+    </header>
+    <main>
+        <picture>
+            <!-- Imagem para computadores -->
+            <source media="(min-width: 769px)" srcset="hMhw9OP.jpg">
+            <!-- Imagem para celulares -->
+            <img src="hMhw9OP.jpg" alt="Imagem do Site">
+        </picture>
+        <label for="email">INSIRA SEU EMAIL E TELEFONE!:</label>
+        <input type="email" id="email" name="email" placeholder="Seu e-mail">
+        <label for="telefone"></label>
+        <input type="tel" id="telefone" placeholder="Seu número de telefone">
+        <button id="enviar">Enviar</button>
+        <button id="compartilhar" style="display: none;">Compartilhar</button>
+        <div class="progress-bar" style="display: none;">
+            <div class="progress"></div>
+            <div class="progress-text">0 de 10 compartilhamentos</div>
+        </div>
+    </main>
+    <div class="message">
+        PARABÉNS, CLIQUE NO BOTÃO PARA RECEBER O SEU BÔNUS<br>
+        <div class="button">
+            <a href="https://bit.ly/ElitteBotAPP">RECEBER BONUS</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
